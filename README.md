@@ -29,7 +29,7 @@ To push some data into it, from another Ruby process, you can run:
 
 ```ruby
 require 'rest_client'
-RestClient.post 'http://localhost:9292/put', { data: 'hello, dolly' }, :content_type => :json, :accept => :json
+RestClient.post 'http://localhost:9292/put', { data: 'hello, dolly' }
 ```
 
 (Substituting "localhost:9292" as needed)
